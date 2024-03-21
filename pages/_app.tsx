@@ -119,7 +119,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         <title>{og.title}</title>
         <meta
           name="google-site-verification"
-          content="aUOx7BZBGMEAbtDsLf9bN1BvycMZwahF4zDqu0EtQCw"
+          content="9Pzes-gSp5crkbghiPN-xgTVPUdhy2GHAT6u7V8LGek"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <link rel="icon" href={webinrush.src} /> */}
