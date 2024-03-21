@@ -244,8 +244,8 @@ const Index = () => {
 
       </div>
       <div className="Basic card1">
-      <h3>Kolli manibabu
-         m.tech(interior designer)</h3>
+      <h3>Kolli Manibabu
+         M.tech(CAD designer)</h3>
          <span className="image2">
                   <Image src={img2.src} width={240} height={240} alt="" />
                   </span>
