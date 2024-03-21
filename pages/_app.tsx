@@ -105,7 +105,7 @@ const og = {
   description:
     "We are dedicated to delivering exceptional design, detailing, and structural engineering service. Our team of experts is committed to excellence and works tirelessly to exceed your expectations.",
   image: webinrush.src,
-  url: "https://webinrush.vercel.app/",
+  url: "https://charvikadevelopers.vercel.app/",
 };
 
 const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
