@@ -131,7 +131,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         <meta name="description" content={og.description} />
         <link rel="canonical" href={og.url} />
         <script type="application/ld+json">
-          {`
+          {/* {`
       {
         "@context": "https://schema.org",
         "@graph": [
@@ -170,7 +170,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
           }
         ]
       }
-      `}
+      `} */}
         </script>
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={og.title} />
@@ -184,10 +184,10 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         <meta property="twitter:title" content={og.describedTitle} />
         <meta property="twitter:description" content={og.description} />
         <meta property="twitter:image" content={og.image} />
-        <meta name="twitter:site" content="@itsme-Subid" />
+        {/* <meta name="twitter:site" content="@itsme-Subid" />
         <meta name="twitter:creator" content="@itsme-Subid" />
         <meta name="theme-color" content="#023047" />
-        <meta name="next-head-count" content="26" />
+        <meta name="next-head-count" content="26" /> */}
       </Head>
       <GlobalStyle />
       <Suspense fallback={<Loading />}>
