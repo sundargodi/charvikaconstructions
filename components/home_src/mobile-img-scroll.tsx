@@ -2,10 +2,11 @@ import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import styled from "styled-components";
-import bg from "../../public/IMG-20230331-WA0007.jpg";
-import img1 from "../../public/IMG-20230331-WA0028.jpg";
-import img2 from "../../public/1679793226740-01.jpeg";
-import img3 from "../../public/IMG-20230405-WA0007.jpg";
+import bg from "../../public/IMG-20230405-WA0007.jpg";
+import img1 from "../../public/1679793226740-01.jpeg";
+import img2 from "../../public/IMG-20230707-WA0002.jpg";
+import img3 from "../../public/IMG-20230707-WA0003.jpg";
+import img4 from "../../public/IMG-20230707-WA0002.jpg";
 import Media from "react-media";
 import Image from "next/image";
 import { on } from "events";
@@ -72,6 +73,11 @@ function MobileScrollSection() {
                   <div className="scroll-section">
                   <span className="image1">
                   <Image src={img3.src} width={400} height={300} alt="" />
+                  </span>
+                  </div>
+                  <div className="scroll-section">
+                  <span className="image1">
+                  <Image src={img4.src} width={400} height={300} alt="" />
                   </span>
                   </div>
                 </div>
