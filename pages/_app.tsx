@@ -139,7 +139,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
           {
             "@type": "Design & constructions",
             "@id":"charvikadevelopers",
-            "name": ${og.title},
+            "name": "CHARVIKADEVELOPERS",
             "url": ${og.url},
             // "sameAs": [
             //   "https://www.instagram.com/itsme_subid/",
