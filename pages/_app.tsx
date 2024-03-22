@@ -139,7 +139,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
           {
             "@type": "Design & constructions",
             "@id": ${og.url},
-            "name": ${og.describedTitle},
+            "name": ${og.title},
             "url": ${og.url},
             // "sameAs": [
             //   "https://www.instagram.com/itsme_subid/",
