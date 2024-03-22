@@ -7,8 +7,8 @@ import { Poppins } from "@next/font/google";
 import { createGlobalStyle } from "styled-components";
 import { motion } from "framer-motion";
 import { Suspense, lazy, useEffect, useState } from "react";
-import favicon from "./../public/favicon.ico";
-import webinrush from "./../public/thirteen.svg";
+import favicon from "./../public/logo-png.png";
+import webinrush from "./../public/logo-png.png";
 import { SessionProvider } from "next-auth/react";
 import '../styles/globals1.css'
 const Header = lazy(() => import("../components/Navbar"));
@@ -117,12 +117,13 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
     <SessionProvider session={session}>
       <Head>
         <title>{og.title}</title>
-        <meta
+        {/* <meta
           name="google-site-verification"
           content="9Pzes-gSp5crkbghiPN-xgTVPUdhy2GHAT6u7V8LGek"
-        />
+        /> */}
+        <meta name="google-site-verification" content="uMGqeW4afwnlZ06BDwmpYUnpjZGN3_aS7TTMSQ_tD5M" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href={webinrush.src} /> */}
+        <link rel="icon" href={webinrush.src} />
       
         <meta
           name="robots"
@@ -131,19 +132,19 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         <meta name="description" content={og.description} />
         <link rel="canonical" href={og.url} />
         <script type="application/ld+json">
-          {/* {`
+          {`
       {
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "Full-Stack Developer",
+            "@type": "Design & constructions",
             "@id": ${og.url},
             "name": ${og.describedTitle},
             "url": ${og.url},
-            "sameAs": [
-              "https://www.instagram.com/itsme_subid/",
-              "https://twitter.com/ItsmeSubid"
-            ],
+            // "sameAs": [
+            //   "https://www.instagram.com/itsme_subid/",
+            //   "https://twitter.com/ItsmeSubid"
+            // ],
             "logo": {
               "@type": "ImageObject",
               "@id": ${og.url},
@@ -152,7 +153,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
               "contentUrl": ${og.image},
               "width": 1000,
               "height": 1000,
-              "caption": "itsme-Subid"
+              "caption": "charvikadevelopers"
             },
             "image": { "@id": ${og.url} }
           },
@@ -170,7 +171,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
           }
         ]
       }
-      `} */}
+      `}
         </script>
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={og.title} />
@@ -185,9 +186,9 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         <meta property="twitter:description" content={og.description} />
         <meta property="twitter:image" content={og.image} />
         {/* <meta name="twitter:site" content="@itsme-Subid" />
-        <meta name="twitter:creator" content="@itsme-Subid" />
+        <meta name="twitter:creator" content="@itsme-Subid" /> */}
         <meta name="theme-color" content="#023047" />
-        <meta name="next-head-count" content="26" /> */}
+        <meta name="next-head-count" content="26" />
       </Head>
       <GlobalStyle />
       <Suspense fallback={<Loading />}>
