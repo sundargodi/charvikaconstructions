@@ -100,12 +100,12 @@ type Props = AppProps & {
 };
 
 const og = {
-  title: "CHARVIKACONSTRUCTIONS 🛠️",
+  title: "CHARVIKADEVELOPERS 🛠️",
   describedTitle: "Take your building projects to the next level with Charvika Constructions' dynamic solutions",
   description:
     "We are dedicated to delivering exceptional design, detailing, and structural engineering service. Our team of experts is committed to excellence and works tirelessly to exceed your expectations.",
   image: webinrush.src,
-  url: "https://charvikadevelopers.vercel.app/",
+  url: "https://www.charvikadevelopers.co.in/",
 };
 
 const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
