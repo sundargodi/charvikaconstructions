@@ -138,35 +138,35 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         "@graph": [
           {
             "@type": "Design & constructions",
-            "@id":"charvikadevelopers",
-            "name": "CHARVIKADEVELOPERS",
-            "url": ${og.url},
+            "@id":"${og.url}",
+            "name": "${og.describedTitle}",
+            "url": "${og.url}",
             // "sameAs": [
             //   "https://www.instagram.com/itsme_subid/",
             //   "https://twitter.com/ItsmeSubid"
             // ],
             "logo": {
               "@type": "ImageObject",
-              "@id": ${og.url},
+              "@id": "${og.url}",
               "inLanguage": "en-US",
-              "url": ${og.image},
-              "contentUrl": ${og.image},
+              "url": "${og.image}",
+              "contentUrl": "${og.image}",
               "width": 1000,
               "height": 1000,
               "caption": "charvikadevelopers"
             },
-            "image": { "@id": ${og.url} }
+            "image": { "@id": "${og.url}" }
           },
           {
             "@type": "WebPage",
-            "@id": ${og.url},
-            "url": ${og.url},
-            "name": ${og.describedTitle},
+            "@id": "${og.url}",
+            "url": "${og.url}",
+            "name": "${og.describedTitle}",
             "isPartOf": {
-              "@id": ${og.url}
+              "@id": "${og.url}"
             },
-            "about": { "@id": ${og.url} },
-            "description": ${og.description},
+            "about": { "@id": "${og.url}" },
+            "description": "${og.description}",
             "inLanguage": "en-US"
           }
         ]
