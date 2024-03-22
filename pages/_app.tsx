@@ -138,7 +138,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: Props) => {
         "@graph": [
           {
             "@type": "Design & constructions",
-            "@id": ${og.url},
+            "@id":"charvikadevelopers",
             "name": ${og.title},
             "url": ${og.url},
             // "sameAs": [

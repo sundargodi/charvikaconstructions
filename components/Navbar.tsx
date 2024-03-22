@@ -7,7 +7,8 @@ import { BsFillChatFill, BsFillInfoCircleFill} from "react-icons/bs";
 import{RiContactsFill} from "react-icons/ri";
 import { FaUserAlt } from "react-icons/fa";
 import { RiShoppingCartFill } from "react-icons/ri";
-
+import Image from "next/image";
+import webinrush from "./../public/logo-png-removebg.png";
 type NavbarType = {
   transparent?: boolean;
 };
@@ -310,7 +311,7 @@ text-rendering: optimizelegibility;
             <Link href="/" onMouseOver={mouseOver}>
               {navbar.logo}
             </Link>
-         
+            <Image src={webinrush.src} width={50} height={70} alt="" />
           </div>
           <div className="menu">
             <ul>
