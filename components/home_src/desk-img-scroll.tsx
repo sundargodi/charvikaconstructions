@@ -6,7 +6,7 @@ import bg from "../../public/IMG-20230405-WA0007.jpg";
 import img1 from "../../public/1679793226740-01.jpeg";
 import img2 from "../../public/IMG-20230707-WA0002.jpg";
 import img3 from "../../public/IMG-20230707-WA0003.jpg";
-import img4 from "../../public/IMG-20230707-WA0002.jpg";
+import img4 from "../../public/IMG-20231001-WA0023.jpg";
 import Media from "react-media";
 import Image from "next/image";
 import { on } from "events";
