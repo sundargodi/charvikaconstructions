@@ -49,7 +49,8 @@ return(
 <h2>Contact</h2>
 <p>If you are looking for a reliable and experienced civil engineering team, please dont hesitate to contact us. We would be happy to discuss your project and provide a free consultation and quote. Thank you for considering our services, and we look forward to working with you!</p>
 <h4>phno:+917207204553</h4>
-    <h4>ksri2418@gmail.com</h4>
+    <h4>Gmail:constructionscharvika@gmail.com</h4>
+
     </div>
    
    </Stylecard> 

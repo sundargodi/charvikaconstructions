@@ -220,6 +220,14 @@ const Footer = () => {
                 <li>Code licensed GNU General Public License v3.0.</li>
               </ul>
             </div> */}
+            <h2>
+Address</h2>
+<span>   
+D.no. 2-83/1,
+Chinapattiyyagari street,
+Doddanapudi,
+Kalla mandal pin 534237
+WG district,Ap</span>
           </div>
           <div className="col social">
             <div className="col-header">
@@ -229,7 +237,7 @@ const Footer = () => {
               <ul>
                 <li>
                <a
-                    href=""
+                    href="https://www.facebook.com/profile.php?id=61557508146492"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -286,7 +294,7 @@ const Footer = () => {
           <div className="left">
             <div className="socials">
             <a
-                href=""
+                href="https://www.facebook.com/profile.php?id=61557508146492"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Linkedin"
